@@ -1,4 +1,4 @@
-# 3.1.1 Numbers
+# 3.1.1 - Numbers
 
 """
 O interpretador funciona como uma calculadora simples: você pode digitar uma expressão nele e ele escreverá o valor.

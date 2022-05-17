@@ -4,15 +4,17 @@ Aqui, eu utilizei apenas a documentação da Linguagem, disponível em: [Python 
 
 Conteúdo:
 
-```
-Sessao 01 (importante para a Lógica de Programação):
+📃 -> conteudo a ser passado via-explicação
 
-01 - Introdução ao Python
-02 - Instalação do Python
-03 - Olá Mundo em Python
-04 - Variáveis ​​em Python
-05 - Strings em Python
-06 - Números em Python
+```
+Sessao 01 (importante para a disciplina de Lógica de Programação):
+
+01 - Introdução ao Python 📃
+02 - Instalação do Python 📃
+03 - Olá Mundo em Python  📃
+04 - Variáveis ​​em Python  📃
+05 - Números em Python
+06 - Strings em Python
 07 - Obtendo a entrada de um usuário
 08 - Instruções IF em Python
 09 - While Loops em Python
@@ -23,8 +25,8 @@ Sessao 01 (importante para a Lógica de Programação):
 ```
 Sessao 02 (importante para análise de dados e M.L. -> cursos FIC):
 
-12 - Listar em Python
-13 - Listar Métodos
+12 - Listas em Python
+13 - Métodos de Listas
 14 - Listas 2D
 15 - Tuplas em Python
 16 - Dicionários em Python
