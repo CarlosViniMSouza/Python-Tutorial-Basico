@@ -62,3 +62,67 @@ print("Py" + "thon" + " eh" + " legal!!")
 nome = "Carlos"
 
 print("Bem-Vindo " + nome)
+# output: Bem-Vindo Carlos
+
+"""
+AGORA A COISA VAI FICAR UM POUCO CONFUSA, MAS VÁ COM CALMA!!
+
+Strings podem ser indexadas(subscritos); o primeiro caractere tem índice 0. Não há um tipo de caractere separado; um caractere é simplesmente uma string de tamanho um:
+"""
+
+palavra = "paralelepípedo"
+
+# Indo da esquerda p/ direita:
+
+print(palavra[0])
+# output: p -> primeira letra
+
+print(palavra[13])
+# output: o -> ultima letra
+
+# Os índices também podem ser números negativos, para começar a contar da direita:
+
+print(palavra[-1])
+# output: o -> ultima letra
+
+print(palavra[-14])
+# output: p -> primeira letra
+
+"""
+Além da indexação, o fatiamento também é suportado. 
+
+Enquanto a indexação é usada para obter caracteres individuais, o fatiamento permite obter uma sub-string:
+"""
+
+# 1 - caracteres da posição 0 (incluída) a 4 (excluída):
+print(palavra[0:4])
+# output: para
+
+# 2 - caractere do início até a posição 4 (excluída):
+print(palavra[:4])
+# output: para
+
+# 3 - caracteres da posição 4 (incluída) até o final:
+print(palavra[4:])
+# output: lelepípedo
+
+# 4 - caracteres do décimo elemento (incluído) até o final:
+print(palavra[-4:])
+# output: pedo
+
+"""
+Essa seria a forma como o Python particiona a string da variavel palavra:
+
+   +---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+   | p | a | r | a | l | e | l | e | p | í | p | e | d | o |
+   +---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+   0   1   2   3   4   5   6   7   8   9   10  11  12  13  14
+  -14 -13 -12 -11 -10 -9  -8  -7  -6  -5  -4  -3  -2  -1
+
+A primeira linha de números fornece a posição dos índices 0 … 14 na string; a segunda linha fornece os índices negativos correspondentes.
+"""
+
+# LINKS UTEIS:
+
+# 1 - Metodos de Strings: https://docs.python.org/3/library/stdtypes.html#string-methods
+# 2 - Sintaxe de String de Formato: https://docs.python.org/3/library/string.html#formatstrings
