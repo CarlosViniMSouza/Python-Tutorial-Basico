@@ -18,28 +18,27 @@ Sessao 01 (importante para a disciplina de Lógica de Programação):
 07 - Strings em Python        | ✅
 08 - Condicional if() Python  | ✅
 09 - Loops for() em Python    | ✅
-10 - Loops while() em Python  |
-11 - Comentários em Python    |
+10 - Loops while() em Python  | ✅
 ```
 
 ```
 Sessao 02 (importante para análise de dados e M.L. -> cursos FIC):
 
-12 - Listas em Python
-13 - Métodos de Listas
-14 - Listas 2D
-15 - Tuplas em Python
-16 - Dicionários em Python
-17 - Funções em Python
-18 - A palavra-chave de retorno
-19 - Tente exceto em Python
+11 - Listas em Python       |
+12 - Métodos de Listas      |
+13 - Listas 2D em Python    |
+14 - Tuplas em Python       |
+15 - Dicionários em Python  |
+16 - Funções em Python      |
+17 - Palavra-chave 'return' |
+18 - 'Try except' em Python |
 ```
 
 ```
 Sessao 03 (importante para trabalhar com frameworks):
 
-20 - Classes e Objetos em Python
-21 - Herança em Python
+20 - Classes e Objetos em Python |
+21 - Herança em Python           |
 ```
 
 ### Links para cursos e tutoriais que irão contribuir para sua formação como Desenvolvedor Python:
