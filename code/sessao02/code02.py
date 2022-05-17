@@ -1,4 +1,4 @@
-# 5.1. - More on Lists
+# 5.1. - Métodos em Listas
 
 """
 Como disse anteriormente, existem diversos métodos para se trabalhar com Listas.
