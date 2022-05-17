@@ -27,3 +27,38 @@ lista_de_compras.insert(-2, "temperos")
 
 print(lista_de_compras)
 # output: ['arroz', 'feijão', 'batata', 'tomate', 'alface', 'frango', 'temperos', 'conservas', 'maionese']
+
+"""
+Agora, vamos para os 3 métodos de remover.
+
+OBS.: cuidado usar o metodo '.clear()' -> uma vez executado, seus dados serão apagados completamente (e nem adianta fazer Ctrl + Z pq eles não irão retornar!)
+"""
+
+# 1 - list.remove(x) -> esse eh facil de decorar! Remove o 1° item da lista cujo valor é igual a x. Mas para verem isso de fato, adicionarei o elemento "batata" no fim da lista:
+
+# com isso, teremos os mesmos elementos, só que "batata" está em outra posição da lista_de_compras
+lista_de_compras.append("batata")
+
+lista_de_compras.remove("batata")
+
+print(lista_de_compras)
+# output: ['arroz', 'feijão', 'tomate', 'alface', 'frango', 'temperos', 'conservas', 'maionese', 'batata']
+
+# 2 - list.pop(i) -> Remove o elemento na posição especificada na lista. Se nenhum índice for especificado, '.pop()' remove o último item da lista.
+
+lista_de_compras.pop(3)  # remove 'alface'
+
+print(lista_de_compras)
+
+lista_de_compras.pop()  # remove 'batata'
+
+print(lista_de_compras)
+
+# 3 - list.clear() -> como disse anteriormente, apaga todas as informações contidas na lista:
+
+lista_de_compras.clear()
+
+print(lista_de_compras)
+# output: []
+
+# dados a serem usados no método de ordenação: ['arroz', 'feijão', 'tomate', 'alface', 'frango', 'temperos', 'conservas', 'maionese', 'batata']
