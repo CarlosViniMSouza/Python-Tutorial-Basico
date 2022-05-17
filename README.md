@@ -17,7 +17,7 @@ Sessao 01 (importante para a disciplina de Lógica de Programação):
 06 - Números em Python        | ✅
 07 - Strings em Python        | ✅
 08 - Condicional if() Python  | ✅
-09 - Loops for() em Python    |
+09 - Loops for() em Python    | ✅
 10 - Loops while() em Python  |
 11 - Comentários em Python    |
 ```
