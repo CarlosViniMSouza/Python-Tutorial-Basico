@@ -30,7 +30,7 @@ Sessao 02 (importante para análise de dados e M.L. -> cursos FIC):
 14 - Tuplas em Python       | ✅
 15 - Dicionários em Python  | ✅
 16 - Funções em Python      | ✅
-17 - 'Try except' em Python | ✅
+17 - 'Try except' em Python | 
 ```
 
 ```
