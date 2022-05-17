@@ -9,17 +9,17 @@ Conteúdo:
 ```
 Sessao 01 (importante para a disciplina de Lógica de Programação):
 
-01 - Introdução ao Python 📃
-02 - Instalação do Python 📃
-03 - Olá Mundo em Python  📃
-04 - Variáveis ​​em Python  📃
-05 - Números em Python
-06 - Strings em Python
-07 - Obtendo a entrada de um usuário
-08 - Instruções IF em Python
-09 - While Loops em Python
-10 - Para Loops em Python
-11 - Comentários em Python
+01 - Introdução ao Python     | 📃
+02 - Instalação do Python     | 📃
+03 - Olá Mundo em Python      | 📃
+04 - Variáveis ​​em Python      | 📃
+05 - Inserção de dados        | 📃
+06 - Números em Python        | ✅
+07 - Strings em Python        | ✅
+08 - Condicional if() Python  | ✅
+09 - Loops for() em Python    |
+10 - Loops while() em Python  |
+11 - Comentários em Python    |
 ```
 
 ```
