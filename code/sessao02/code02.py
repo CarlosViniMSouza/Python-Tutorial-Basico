@@ -62,3 +62,34 @@ print(lista_de_compras)
 # output: []
 
 # dados a serem usados no método de ordenação: ['arroz', 'feijão', 'tomate', 'alface', 'frango', 'temperos', 'conservas', 'maionese', 'batata']
+
+"""
+Por fim, o último método a ser explicado, o de ordenação: list.sort(*, key=None, reverse=False)
+
+1 - Funcionalidade: Retorna uma nova lista ordenada dos itens em iterável.
+
+2 - Saiba que: Possui 2 argumentos opcionais que devem ser especificados como argumentos de palavra-chave:
+
+    2.1 - 'key' especifica uma função de um argumento que é usado para extrair uma chave de comparação de cada elemento em iterável (por exemplo, key=str.lower). O valor padrão é Nenhum (compare os elementos diretamente).
+    
+    2.2 - 'reverse' é um valor booleano. Se definido como True, os elementos da lista serão classificados inversamente.
+
+Agora, vamos fazer alguns testes:
+"""
+
+lista_de_compras = ['arroz', 'feijão', 'tomate', 'alface',
+                    'frango', 'temperos', 'conservas',
+                    'maionese', 'batata']
+
+lista_de_compras.sort()
+print(lista_de_compras)
+# output: ['alface', 'arroz', 'batata', 'conservas', 'feijão', 'frango', 'maionese', 'temperos', 'tomate']
+
+lista_de_compras.sort(key=None, reverse=True)
+print(lista_de_compras)
+# output: ['tomate', 'temperos', 'maionese', 'frango', 'feijão', 'conservas', 'batata', 'arroz', 'alface']
+
+lista_de_compras.sort(key=None, reverse=False)
+print(lista_de_compras)
+# output: ['alface', 'arroz', 'batata', 'conservas', 'feijão', 'frango', 'maionese', 'temperos', 'tomate']
+# igual ao primeiro teste, se reparar!

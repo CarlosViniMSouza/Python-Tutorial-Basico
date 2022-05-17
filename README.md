@@ -25,7 +25,7 @@ Sessao 01 (importante para a disciplina de Lógica de Programação):
 Sessao 02 (importante para análise de dados e M.L. -> cursos FIC):
 
 11 - Listas em Python       | ✅
-12 - Métodos de Listas      |
+12 - Métodos de Listas      | ✅
 13 - Listas 2D em Python    |
 14 - Tuplas em Python       |
 15 - Dicionários em Python  |
