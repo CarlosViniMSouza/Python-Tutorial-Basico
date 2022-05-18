@@ -107,3 +107,67 @@ var.root()  # <- a função root() contida em MeuRegistro se tornou um método p
 """
 Os nomes de métodos válidos de um objeto de instância dependem de sua classe. Ou seja, os atributos de uma classe que são objetos de função definem métodos correspondentes de suas instâncias.
 """
+
+"""
+- Objetos de método:
+
+Normalmente, um método é chamado logo após ser vinculado. Exemplo:
+"""
+
+var.root()
+
+"""
+No exemplo MeuRegistro, isso retornará a string 'Eai galerinha! ✌️'. No entanto, não é necessário chamar um método imediatamente: 'var.root' é um objeto de método e pode ser armazenado e chamado posteriormente. Veja:
+"""
+
+varRoot = var.root
+cont = 0
+
+while(cont < 5):
+    print(varRoot())
+    cont += 1
+
+# o cont tem como papel encerrar o loop.
+
+"""
+Rapaziada, eh o seguinte: Vou dar uma pausa por aqui, depois eu adiciono o tópico: Variáveis de classe e instância
+"""
+
+"""
+- Variáveis de classe e instância:
+
+De um modo geral, as variáveis de instância são para dados exclusivos de cada instância e as variáveis de classe são para atributos e métodos compartilhados por todas as instâncias da classe:
+"""
+
+
+class Dog:
+    kind = 'canine'         # variavel de classe compartilhada para todas as instâncias
+
+    def __init__(self, name):
+        self.name = name    # variável de instância única para cada instância
+
+
+d = Dog('Fido')
+e = Dog('Buddy')
+
+print(d.kind)                  # compartilhado por todos os cães
+# output: 'canine'
+
+print(e.kind)                 # compartilhado por todos os cães
+# output: 'canine'
+
+print(d.name)                 # exclusivo para 'd'
+# output: 'Fido'
+
+print(e.name)                  # exclusivo para 'e'
+# output: 'Buddy'
+
+"""
+Bem, deixarei a questão do estudo de Classes até aqui.
+
+Esse é um conceito de muita importância no Python! Pois as classes são peça-chave para Orientação a Objetos (POO) e Modularização (conceito fundamental para arquitetura de Microsserviços).
+
+(OBS.: Esse assuntos serão vistos no futuro, e talvez abordados em outras LPs)
+
+Agora só falta 2 tópicos: Herança (Inheritance) e Módulos (algo básico, mas que deve ser explicado)
+"""
