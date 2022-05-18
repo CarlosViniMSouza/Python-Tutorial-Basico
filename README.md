@@ -36,7 +36,7 @@ Sessao 02 (importante para análise de dados e M.L. -> cursos FIC):
 ```
 Sessao 03 (importante para trabalhar com frameworks):
 
-20 - Classes e Objetos em Python |
+20 - Classes e Objetos em Python | ✅
 21 - Herança em Python           |
 22 - Modulos em Python           |
 ```
