@@ -7,6 +7,10 @@
 """
 
 
+class BaseClassName:
+    pass
+
+
 class DerivedClassName(BaseClassName):
     """
     <statement-1>
