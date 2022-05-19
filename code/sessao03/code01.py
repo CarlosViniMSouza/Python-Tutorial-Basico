@@ -169,5 +169,7 @@ Esse é um conceito de muita importância no Python! Pois as classes são peça-
 
 (OBS.: Esse assuntos serão vistos no futuro, e talvez abordados em outras LPs)
 
+LINK: https://docs.python.org/3/tutorial/classes.html
+
 Agora só falta 2 tópicos: Herança (Inheritance) e Módulos (algo básico, mas que deve ser explicado)
 """
