@@ -17,9 +17,9 @@ print(variados)
 # output: [1, 2.5, 'b', "Ola", False]
 
 """
-Assim como as strings (e todos os outros tipos de sequência integrados), as listas podem ser indexadas e divididas:
+Assim como as strings (e todos os outros tipos de sequência integrados), as listas podem ser indexadas e divididas(particionadas):
 
-(Vejamos o mesmos processos que fizemos com strings)
+(Vejamos o "mesmos processos" que fizemos com strings):
 """
 
 print(nums[1])
@@ -38,7 +38,7 @@ print(variados[2:4])
 # output: ['b', 'Ola']
 
 
-# As listas também suportam operações como concatenação:
+# As listas também suportam concatenação(junção):
 
 print(nums + [36, 49, 64, 81, 100])
 # output: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
