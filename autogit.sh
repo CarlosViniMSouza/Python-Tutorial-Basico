@@ -1,4 +1,4 @@
 git add -A
-git commit -m "Atualmente: try except -> melhorada | Prox. Passo: Melhorar Sessao 03 (depois que eu fizer o trabalho de Modelagem!)"
+git commit -m "Atualmente: Classes -> melhorada | Prox. Passo: Melhorar sessao03/code02.py"
 git push -u origin main
 git status
