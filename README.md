@@ -49,4 +49,14 @@ Sessao 03 (importante para trabalhar com frameworks):
 
 3. [Real Python - Paths Learning](https://realpython.com/learning-paths/) -> A casa de todo e bom python-zeiro, pythonista e pythoneer(python + enginner).
 
+4. [Um tutorial rápido de Python (em inglês) - para quem tem muita pressa](https://www.youtube.com/watch?v=VchuKL44s6E)
+
+5. O Curso de Python mais recomendado para iniciantes (e sim, foi dividido em 3 modulos):
+
+&nbsp; &nbsp; [Mundo 01](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
+
+&nbsp; &nbsp; [Mundo 02](https://www.youtube.com/watch?v=nJkVHusJp6E&list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye)
+
+&nbsp; &nbsp; [Mundo 03](https://www.youtube.com/watch?v=0LB3FSfjvao&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH)
+
 [Um editor de código Python online interessante](https://pythonandturtle.com/turtle)
