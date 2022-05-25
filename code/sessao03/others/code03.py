@@ -117,7 +117,7 @@ output:
 
   Você pode optar por importar apenas partes de um módulo, usando a palavra-chave 'from'.
 
-  Exemplo: Import o 'pessoa02' de modulo.py
+  Exemplo: Importe o 'pessoa02' de modulo.py
 """
 
 # from modulo import pessoa02  <- novamente, o corretor atrapalhando ...
