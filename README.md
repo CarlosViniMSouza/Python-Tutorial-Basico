@@ -59,4 +59,6 @@ Sessao 03 (importante para trabalhar com frameworks):
 
 &nbsp; &nbsp; [Mundo 03](https://www.youtube.com/watch?v=0LB3FSfjvao&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH)
 
+6. [Cadernos Cicomp - Minha primeira fonte de estudos sobre Python](https://cadernoscicomp.com.br/tutorial/introducao-a-programacao-em-python-3/)
+
 [Um editor de código Python online interessante](https://pythonandturtle.com/turtle)
