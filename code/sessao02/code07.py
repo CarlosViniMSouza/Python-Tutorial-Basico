@@ -1,9 +1,15 @@
+# RECOMENDO USAR O OTHERS/CODE07.PY para melhor compreensão deste tema em específico
+
 # 8.3. Tratamento de exceções
 
 """
-É possível escrever programas que tratam de exceções selecionadas. Veja o exemplo a seguir, que solicita a entrada do usuário até que um inteiro válido seja inserido, mas permite que o usuário interrompa o programa.
+Explicando brevemente os conceitos de 'try' e 'except':
 
-Usando Ctrl+C ou o que o sistema operacional suporta; observe que um usuário-interrupção gerada é sinalizada levantando a exceção KeyboardInterrupt.
+1 - O bloco 'try' permite testar um bloco de código quanto a erros.
+
+2 - O bloco 'except' permite que você lide com o erro.
+
+É possível escrever programas que tratam de exceções selecionadas. Veja o exemplo a seguir, que solicita a entrada do usuário até que um inteiro válido seja inserido, mas permite que o usuário interrompa o programa.
 """
 
 while True:
@@ -16,17 +22,15 @@ while True:
 """
 A instrução 'try' funciona da seguinte maneira.
 
-° Primeiro, a cláusula 'try' (as instruções entre as palavras-chave 'try' e 'except') é executada.
+    1. A cláusula 'try' é executada;
 
-° Se nenhuma exceção ocorrer, a cláusula except será ignorada e a execução da instrução try será concluída.
+    2. Se nenhuma exceção ocorrer, a cláusula 'except' será ignorada e a execução da instrução 'try' será concluída; (Caso 1)
 
-° Se ocorrer uma exceção durante a execução da cláusula 'try', o restante da cláusula 'try' será ignorado. 
+    3. Se ocorrer uma exceção, o restante da cláusula 'try' será ignorado; (Caso 2)
 
-° Se ocorrer uma exceção que não corresponda à exceção nomeada na cláusula 'except', ela será passada para instruções 'try' externas;
+    4. Se ocorrer uma exceção que não corresponda à exceção nomeada em 'except', vamos ao 'try' externo; (Caso 3)
 
-Uma classe em uma cláusula 'except' é compatível com uma exceção se for a mesma classe ou uma classe base dela (mas não o contrário - uma cláusula except listando uma classe derivada não é compatível com uma classe base). 
-
-Por exemplo, o código a seguir imprimirá B, C, D nessa ordem:
+Uma classe com uma cláusula 'except' é compatível com uma exceção se for a mesma classe ou uma classe base dela (Isso pode parecer meio confuso em uma primeira leitura). Por exemplo, o código a seguir imprimirá B, C, D nessa ordem:
 """
 
 
@@ -60,7 +64,7 @@ D
 """
 
 """
-Observe que se as cláusulas except fossem invertidas (com except B primeiro), teriamos impresso B, B, B — a primeira cláusula except correspondente é acionada.
+Observe que se as cláusulas 'except' fossem invertidas (com 'except' B primeiro), teriamos impresso B, B, B — A primeira cláusula 'except' correspondente é acionada.
 
 Todas as exceções herdam de 'BaseException' e, portanto, podem ser usadas para servir como curinga. Use isso com extrema cautela, pois é fácil mascarar um erro de programação real dessa maneira! Exemplo:
 """

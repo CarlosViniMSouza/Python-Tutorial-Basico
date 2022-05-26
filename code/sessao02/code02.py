@@ -51,6 +51,7 @@ lista_de_compras.pop(3)  # remove 'alface'
 lista_de_compras.pop()  # remove 'batata'
 
 print(lista_de_compras)
+# output: ['arroz', 'feijão', 'tomate', 'frango', 'temperos', 'conservas', 'maionese']
 
 # 3 - list.clear() -> como disse anteriormente, apaga todas as informações contidas na lista:
 
