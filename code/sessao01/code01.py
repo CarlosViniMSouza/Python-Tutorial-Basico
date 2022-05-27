@@ -1,7 +1,7 @@
 # 3.1.1 - Numeros
 
 """
-O interpretador funciona como uma calculadora simples: você pode digitar uma expressão nele e ele escreverá o valor.
+O interpretador funciona como uma calculadora simples: você pode digitar uma expressão numérica nele, e ele escreverá(retornará) o valor.
 
 A sintaxe da expressão é direta: os operadores +, -, * e / funcionam como na maioria das outras linguagens; parênteses podem ser usados para agrupamento. Por exemplo:
 """
@@ -61,6 +61,11 @@ print(5 ** 2)
 
 print(4 ** 4)
 # output: 256
+
+
+# Para calcular raiz quadrada:
+print(25 ** 0.5)
+# output: 5.0
 
 
 # O sinal de igual (=) é usado para atribuir um valor a uma variável:

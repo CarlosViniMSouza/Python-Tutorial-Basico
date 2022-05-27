@@ -1,14 +1,47 @@
 # input()
 
+print("oi")
+
+# variaveis
+
 """
-input() é a instrução do python onde inserimos uma determinada informação! Podemos definir o tipo de informação que precisamos que o interpretador entenda e podemos alterar seu tipo no decorrer da codificação (é mais fácil entender codando):
+inteiro n1, n2
 
-OBS.: Para sabermos que tipo de informação foi enviado, utilizamos a instrução type()
+escreva("digite valor 01: ")
+leia(n1)
 
-Exemplos:
+escreva("digite valor 02: ")
+leia(n2)
+
+-10, 0, 5, ... (1.5 != inteiro, mas com ponto flutuante(float))
 """
 
-variavel = input("Digite qualquer coisa: ")
+variavel = 1
 
 print(type(variavel))
-# output: <class 'str'>
+# <class 'int'>
+
+var = input("Pfv, digite um numero: ")
+
+print("seu numero eh: ", var)
+
+print(type(var))
+# <class 'str'>
+
+# qualquer info passada no input(), será visto como string! (string -> "cadeia de caracteres")
+
+# para transformar 'str' em 'int', faça o seguinte:
+
+var = int(input("Pfv, digite um numero: "))  # int(), float(), ...
+
+print("seu numero eh: ", var)
+
+print(type(var))
+# <class 'int'>
+
+var = float(input("Pfv, digite um numero: "))
+
+print("seu numero eh: ", var)
+
+print(type(var))
+# <class 'float'>
