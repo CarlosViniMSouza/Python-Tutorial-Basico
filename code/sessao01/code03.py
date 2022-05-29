@@ -14,13 +14,21 @@ else:
     print('Maior que 1')
 
 """
+Em Portugol:
+
+if() -> se()
+else: -> senao:
+elif() -> senao se (else if)
+"""
+
+"""
 Pode haver zero ou mais partes 'elif', e a parte 'else' é opcional. 
 
 A palavra-chave 'elif' é a abreviação de 'else if' e é útil para evitar recuo excessivo. 
 
-Uma sequência if … elif … elif … é um substituto para as instruções 'switch case' encontradas em outras linguagens.
+Uma sequência if … elif … elif … é um substituto para as instruções 'switch case' encontradas em outras linguagens. (match() case do python)
 
 NOTA: em versões python 3.10.x podemos usar o 'match case'. 
 
-Para obter mais detalhes, consulte a doc do match case: https://docs.python.org/3/tutorial/controlflow.html#match-statements.
+Para obter mais detalhes, consulte a doc do 'match case': https://docs.python.org/3/tutorial/controlflow.html#match-statements.
 """

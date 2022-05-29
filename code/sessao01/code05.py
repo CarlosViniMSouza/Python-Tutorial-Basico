@@ -62,6 +62,15 @@ while(quantia >= 5):
 
 print(f"Você precisara de {cont_notas} de R$5")
 
+# zerar contador para reutilizar
+cont_notas = 0
+
+while(quantia >= 2):
+    quantia -= 2
+    cont_notas += 1
+
+print(f"Você precisara de {cont_notas} de R$2")
+
 # OBS.: Esse codigo eu tirei de uma questão da lista 02.
 
 # No momento, só colocarei isso, agora verei como proceder na sessao 02!!

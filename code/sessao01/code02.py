@@ -3,7 +3,7 @@
 """
 Além de números, o Python também pode manipular strings, que podem ser expressas de várias maneiras. 
 
-Eles podem ser colocados entre aspas simples ('...') ou aspas duplas ("...") com o mesmo resultado. a cotnra-barra (\) pode ser usada para escapar de aspas:
+Eles podem ser colocados entre aspas simples ('...') ou aspas duplas ("...") com o mesmo resultado. a contra-barra (\) pode ser usada para escapar de aspas:
 """
 
 print('emails de spam')  # aspas simples
@@ -59,13 +59,13 @@ print("Py" + "thon" + " eh" + " legal!!")
 
 # 2 - Forma indireta (usando variaveis do tipo string):
 
-nome = "Carlos"
+nome = "Ana"
 
-print("Bem-Vindo " + nome)
+print(f"Bem-Vindo {nome}")
 # output: Bem-Vindo Carlos
 
 """
-AGORA A COISA VAI FICAR UM POUCO CONFUSA, MAS VÁ COM CALMA!!
+AGORA A COISA VAI FICAR UM POUCO CONFUSA, VÁ COM CALMA!!
 
 Strings podem ser indexadas(subscritos); o primeiro caractere tem índice 0. Não há um tipo de caractere separado; um caractere é simplesmente uma string de tamanho um:
 """
@@ -80,7 +80,7 @@ print(palavra[0])
 print(palavra[13])
 # output: o -> ultima letra
 
-# Os índices também podem ser números negativos, para começar a contar da direita:
+# Os índices também podem ser números negativos, para começar a contar da direita: (<-)
 
 print(palavra[-1])
 # output: o -> ultima letra
@@ -111,7 +111,7 @@ print(palavra[-4:])
 # output: pedo
 
 """
-Essa seria a forma como o Python particiona a string da variavel palavra:
+Essa seria a forma como o Python particiona a string da variavel 'palavra':
 
    +---+---+---+---+---+---+---+---+---+---+---+---+---+---+
    | p | a | r | a | l | e | l | e | p | í | p | e | d | o |

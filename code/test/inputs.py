@@ -1,10 +1,10 @@
+"""
 # input()
 
 print("oi")
 
 # variaveis
 
-"""
 inteiro n1, n2
 
 escreva("digite valor 01: ")
@@ -14,7 +14,6 @@ escreva("digite valor 02: ")
 leia(n2)
 
 -10, 0, 5, ... (1.5 != inteiro, mas com ponto flutuante(float))
-"""
 
 variavel = 1
 
@@ -45,3 +44,13 @@ print("seu numero eh: ", var)
 
 print(type(var))
 # <class 'float'>
+"""
+
+"""
+# # # # # Strings # # # # #
+
+nome = 'C' + 'A' + 'R' + 'L' + 'O' + 'S'
+
+print(nome)  # -> formamos uma string
+# output: CARLOS
+"""
