@@ -1,56 +1,36 @@
 """
-# input()
+Faça um algoritmo que leia o sexo, a idade e a escolaridade (fundamental, médio e superior) e
+determine o cargo que a pessoa pode se candidatar, dada a tabela abaixo. O número de pessoas a se
+candidatar às vagas é incerto.
 
-print("oi")
+(OBS.:A condição de parada é quando a idade da pessoa for menor ou igual a 0)
 
-# variaveis
-
-inteiro n1, n2
-
-escreva("digite valor 01: ")
-leia(n1)
-
-escreva("digite valor 02: ")
-leia(n2)
-
--10, 0, 5, ... (1.5 != inteiro, mas com ponto flutuante(float))
-
-variavel = 1
-
-print(type(variavel))
-# <class 'int'>
-
-var = input("Pfv, digite um numero: ")
-
-print("seu numero eh: ", var)
-
-print(type(var))
-# <class 'str'>
-
-# qualquer info passada no input(), será visto como string! (string -> "cadeia de caracteres")
-
-# para transformar 'str' em 'int', faça o seguinte:
-
-var = int(input("Pfv, digite um numero: "))  # int(), float(), ...
-
-print("seu numero eh: ", var)
-
-print(type(var))
-# <class 'int'>
-
-var = float(input("Pfv, digite um numero: "))
-
-print("seu numero eh: ", var)
-
-print(type(var))
-# <class 'float'>
+| Sexo | Idade | Escolaridade |    Cargo       |
+|   F  | < 25  |    Médio     | Recepcionista  |
+|   M  | > 40  | Fundamental  | Servente       |
+|F ou M| < 30  |  Superior    | Auxiliar de RH |
 """
 
-"""
-# # # # # Strings # # # # #
+sexo = input("Digite seu sexo: (F - Feminino | M - Masculino): ")
+idade = int(input("Qual a sua idade: "))
+esco = input("Sua escolaridade (Fundamental, Medio ou Superior): ")
 
-nome = 'C' + 'A' + 'R' + 'L' + 'O' + 'S'
+while idade != 0:
 
-print(nome)  # -> formamos uma string
-# output: CARLOS
-"""
+    if (sexo == "F") and (idade < 25) and (esco == "Medio"):
+        print("\nCargo: Recepcionista\n")
+
+    elif (sexo == "F") and (idade > 40) and (esco == "Fundamental"):
+        print("\nCargo: Servente\n")
+
+    elif (sexo == "F" or "M") and (idade < 30) and (esco == "Superior"):
+        print("\nCargo: Auxiliar de RH\n")
+
+    else:
+        print("Nao temos uma vaga para o seu perfil")
+
+    sexo = input("Digite seu sexo: (F - Feminino | M - Masculino): ")
+    idade = int(input("Qual a sua idade: "))
+    esco = input("Sua escolaridade (Fundamental, Medio ou Superior): ")
+
+print("Programa Encerrado")
