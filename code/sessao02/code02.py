@@ -20,12 +20,14 @@ lista_de_compras.append("maionese")
 print(lista_de_compras)
 # output: ['arroz', 'feijão', 'batata', 'tomate', 'alface', 'frango', 'conservas', 'maionese']
 
+
 # 2 - list.insert(i, x) -> inseri um elemento em uma determinada posição. Exemplo: adicione 'temperos' antes de 'conservas'
 
 lista_de_compras.insert(-2, "temperos")
 
 print(lista_de_compras)
 # output: ['arroz', 'feijão', 'batata', 'tomate', 'alface', 'frango', 'temperos', 'conservas', 'maionese']
+
 
 """
 Agora, vamos para os 3 métodos de remover.
@@ -44,6 +46,7 @@ lista_de_compras.remove("batata")
 print(lista_de_compras)
 # output: ['arroz', 'feijão', 'tomate', 'alface', 'frango', 'temperos', 'conservas', 'maionese', 'batata']
 
+
 # 2 - list.pop(i) -> Remove o elemento na posição especificada na lista. Se nenhum índice for especificado, '.pop()' remove o último item da lista.
 
 lista_de_compras.pop(3)  # remove 'alface'
@@ -52,6 +55,9 @@ lista_de_compras.pop()  # remove 'batata'
 
 print(lista_de_compras)
 # output: ['arroz', 'feijão', 'tomate', 'frango', 'temperos', 'conservas', 'maionese']
+
+# output(novidade): ['arroz', 'feijão', 'batata', 'alface', 'frango', 'temperos', 'conservas']
+
 
 # 3 - list.clear() -> como disse anteriormente, apaga todas as informações contidas na lista:
 

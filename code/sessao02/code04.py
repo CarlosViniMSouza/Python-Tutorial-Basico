@@ -1,9 +1,9 @@
 # 5.3. - Tuplas e Sequências
 
 """
-Vimos que listas e strings têm muitas propriedades comuns, como operações de indexação e fatiamento. Eles são dois exemplos de tipos de dados de sequência.
+Vimos que listas e strings têm muitas propriedades comuns, como operações de indexação e fatiamento (e a concatenação). Eles são dois exemplos de tipos de dados de sequência.
 
-Como o Python é uma linguagem em evolução, outros tipos de dados de sequência podem ser adicionados. Há também outro tipo de dados de sequência padrão: a tupla. Veja uns exemplos:
+Como o Python é uma linguagem em evolução, outros tipos de dados de sequência podem ser adicionados. Há também outro tipo de dado de sequência padrão: a Tupla. Veja uns exemplos:
 """
 
 tup = (12345, 54321, 'hello!')
@@ -21,7 +21,7 @@ print(tup)
 """
 Embora as tuplas possam parecer semelhantes às listas, elas são frequentemente usadas em diferentes situações e para diferentes propósitos. 
 
-As tuplas são imutáveis e geralmente contêm uma sequência heterogênea de elementos que são acessados via descompactação ou indexação (ou mesmo por atributo no caso de tuplas nomeadas). 
+As tuplas são imutáveis e geralmente contêm uma sequência heterogênea de elementos que são acessados via descompactação ou indexação (ou mesmo por atributo no caso de tuplas nomeadas).
 
 Um problema especial é a construção de tuplas contendo 0 ou 1 itens: a sintaxe tem algumas peculiaridades extras para acomodá-los. 
 

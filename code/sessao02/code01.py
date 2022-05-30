@@ -19,7 +19,7 @@ print(variados)
 """
 Assim como as strings (e todos os outros tipos de sequência integrados), as listas podem ser indexadas e divididas(particionadas):
 
-(Vejamos o "mesmos processos" que fizemos com strings):
+(Vejamos os "mesmos processos" que fizemos com strings):
 """
 
 print(nums[1])

@@ -9,7 +9,6 @@ candidatar às vagas é incerto.
 |   F  | < 25  |    Médio     | Recepcionista  |
 |   M  | > 40  | Fundamental  | Servente       |
 |F ou M| < 30  |  Superior    | Auxiliar de RH |
-"""
 
 sexo = input("Digite seu sexo: (F - Feminino | M - Masculino): ")
 idade = int(input("Qual a sua idade: "))
@@ -34,3 +33,4 @@ while idade != 0:
     esco = input("Sua escolaridade (Fundamental, Medio ou Superior): ")
 
 print("Programa Encerrado")
+"""

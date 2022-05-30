@@ -15,7 +15,9 @@ A compreensão de lista irá transpor linhas e colunas. E podemos imprimir a mat
 
 Processa cada elemento da matrix, retornando 4 listas de 3 elementos cada. O for() dividirá os elementos por meio do indice.
 """
+
 mat = []
+
 for i in range(4):
     mat.append([linha[i] for linha in matrix])
 
@@ -35,5 +37,5 @@ print(list(zip(*mat)))
 """
 Enfim, listas bidimensionais podem ser bem trabalhosas, e não há muito conteúdo na documentação referente a esse tópico.
 
-Agora, vamos conferir outros tipos de dados
+Agora, vamos conferir outros tipos de dados(tuplas e dicionarios)
 """
