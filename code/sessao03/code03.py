@@ -28,7 +28,7 @@ def fib2(n):   # retorna a série de Fibonacci até n
 
 # agora vamos testar a importação do fibo.py
 
-print(fibo.fib(100))
+print(fib(100))
 # output:
 # 0 1 1 2 3 5 8 13 21 34 55 89
 # None
